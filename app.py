@@ -4,7 +4,7 @@ import base64
 
 import pandas as pd
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 from openai import OpenAI
 
 # -------------------------------------------------------------------
@@ -15,7 +15,7 @@ st.set_page_config(
     layout="wide"
 )
 
-load_dotenv()
+# load_dotenv()
 OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
 
 st.title("Databricks Pipeline Stats Analyser")
@@ -448,3 +448,4 @@ elif data_type == "Images (Pipeline Screenshots)":
     render_image_mode()
 else:
     st.info("👈 Please select a data input type from the sidebar to get started.")
+
