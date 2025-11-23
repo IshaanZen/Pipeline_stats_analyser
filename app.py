@@ -34,7 +34,7 @@ st.caption(f"🔐 OpenRouter API key loaded: {'✅ Yes' if OPENROUTER_API_KEY el
 def load_sample_data() -> pd.DataFrame:
     """Load local sample JSON as a fallback."""
     try:
-        return pd.read_json("data/sample_data.json")
+        return pd.read_json("Data/sample_data.json")
     except Exception as e:
         st.error(f"Error loading sample JSON data: {e}")
         return pd.DataFrame()
@@ -448,4 +448,5 @@ elif data_type == "Images (Pipeline Screenshots)":
     render_image_mode()
 else:
     st.info("👈 Please select a data input type from the sidebar to get started.")
+
 
