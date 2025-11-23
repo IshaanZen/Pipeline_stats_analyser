@@ -1,0 +1,47 @@
+[
+  {
+    "pipeline_name": "daily_etl",
+    "run_id": 1,
+    "start_time": "2025-11-20T10:00:00Z",
+    "duration_min": 12.4,
+    "cpu_usage_percent": 72.5,
+    "memory_used_gb": 9.2,
+    "status": "Success"
+  },
+  {
+    "pipeline_name": "daily_etl",
+    "run_id": 2,
+    "start_time": "2025-11-21T10:00:00Z",
+    "duration_min": 15.1,
+    "cpu_usage_percent": 93.0,
+    "memory_used_gb": 13.8,
+    "status": "Warning"
+  },
+  {
+    "pipeline_name": "daily_etl",
+    "run_id": 3,
+    "start_time": "2025-11-22T10:00:00Z",
+    "duration_min": 11.0,
+    "cpu_usage_percent": 65.0,
+    "memory_used_gb": 8.5,
+    "status": "Success"
+  },
+  {
+    "pipeline_name": "customer_load",
+    "run_id": 1,
+    "start_time": "2025-11-20T09:00:00Z",
+    "duration_min": 9.5,
+    "cpu_usage_percent": 55.0,
+    "memory_used_gb": 6.2,
+    "status": "Success"
+  },
+  {
+    "pipeline_name": "customer_load",
+    "run_id": 2,
+    "start_time": "2025-11-21T09:00:00Z",
+    "duration_min": 10.3,
+    "cpu_usage_percent": 78.0,
+    "memory_used_gb": 10.1,
+    "status": "Success"
+  }
+]
