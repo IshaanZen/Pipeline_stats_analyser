@@ -13,6 +13,9 @@ Behind the scenes, the app uses AI to:
 * Summarise pipeline health
 * Provide plain-English explanations for business use
 
+Project Access Link: 
+https://dbx-pipeline-stats-analyser-git-kagvmqsgahclc9wjb5rfqp.streamlit.app/
+
 ---
 
 ## ✨ Key Features
@@ -148,3 +151,4 @@ for real-world business enablement and performance clarity.
 ## ⭐ Star the repo if you find it useful!
 
 This project aims to bridge the gap between deep technical systems and business understanding.
+
