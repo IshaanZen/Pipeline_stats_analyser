@@ -99,7 +99,7 @@ def make_jsonable(obj):
 @st.cache_data
 def load_sample_data() -> pd.DataFrame:
     """Load local sample JSON as a fallback and sanitize values."""
-    path = "data/cluster_sample_data.json"
+    path = "Data/cluster_sample_data.json"
     if not os.path.exists(path):
         st.error(f"Error loading sample JSON data: {path} does not exist")
         return pd.DataFrame()
